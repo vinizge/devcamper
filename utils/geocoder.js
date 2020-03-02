@@ -7,7 +7,7 @@ const options = {
   formatter: null
 };
 
-console.log(options.provide, options.apiKey);
+console.log(options.provider, options.apiKey);
 
 const geocoder = NodeGeocoder(options);
 
